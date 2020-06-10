@@ -42,6 +42,8 @@ public class ForegroundService extends Service {
         super.onDestroy();
     }
 
+
+    //this is for Bounded service
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
